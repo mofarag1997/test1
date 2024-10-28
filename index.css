@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(14, 13, 13);
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+}
+.card{
+    background-color: rgb(24, 24, 24);
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    margin: 70px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px greenyellow ;
+}
+.card img{
+    border-radius: 250px;
+    width: 100px;
+    box-shadow: 0px 0px 25px greenyellow ;
+    margin-bottom: 10px;
+    
+}
+.card img:hover{
+    width:110px;
+}
+h1{
+    color: white;
+}
+.description{
+    color: yellowgreen;
+    margin-bottom: 30px;
+}
+li{
+    list-style: none;
+}
+.card ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(32, 32, 32);
+    display: block;
+    border-radius: .5rem;
+    padding: 2px 5px;
+    font-weight: 600px;
+    margin: 20px;
+    transition: 0.7ms ease;
+
+}
+.card ul li a:hover{
+    padding: 5px;
+    box-shadow:0px 0px 25px yellowgreen;
+    color: yellowgreen;
+
+}
+
+h4{
+    color: white;
+    font-size: 20px;
+}
+@media(max-width:1024px){
+    .card ul li a{
+        font-size: 15px;
+        margin: 10px;
+    }
+    h4{
+        font-size: 10px;
+    }
+    .card{
+        max-width 300px;
+    }
+}
